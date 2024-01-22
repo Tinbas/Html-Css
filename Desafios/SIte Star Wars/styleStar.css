@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: black;
+    
+}
+
+main{
+    
+    background-color: black;
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+h1 {
+    color: yellow;
+}
+
+h2, p {
+    color: aliceblue;
+}

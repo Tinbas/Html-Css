@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+}
+
+a::before {
+    content: ' ⇉ ';
+
+}
+
+a::after {
+    content: ' ⇇';
+    font-weight: normal;
+    text-decoration: none;
+    
+}
